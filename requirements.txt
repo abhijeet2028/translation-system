@@ -1,0 +1,6 @@
+flask
+flask-sqlalchemy
+transformers
+sentencepiece
+torch
+waitress
