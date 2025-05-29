@@ -1,7 +1,5 @@
 # Automatic Language Translation System with User Feedback
 
-![App Screenshot](https://via.placeholder.com/600x400/4361ee/FFFFFF?text=Translation+App)
-
 A Flask-based web app that translates text between languages (English, French, Spanish, German) and learns from user feedback.
 
 ## Features
