@@ -1,20 +1,39 @@
-# Automatic Language Translation System with User Feedback
+# 🌍 Automatic Language Translation System with User Feedback
 
-A Flask-based web app that translates text between languages (English, French, Spanish, German) and learns from user feedback.
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
+[![Flask](https://img.shields.io/badge/Flask-2.3.x-lightgrey)](https://flask.palletsprojects.com/)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-## Features
-- Real-time translation using Hugging Face MarianMT
-- User feedback system (corrections + ratings)
-- Translation history tracking
-- Active learning for model improvement
+A web application that provides real-time language translation (English, French, Spanish, German) while learning from user corrections to improve accuracy.
 
-## Technologies
-- **Frontend**: HTML, CSS, Bootstrap
-- **Backend**: Python (Flask)
-- **AI Model**: Hugging Face Transformers
-- **Database**: SQLite (Flask-SQLAlchemy)
+![App Screenshot](https://i.imgur.com/JQ9w5Bn.png) *(Replace with actual screenshot)*
 
-## How to Run
+## ✨ Features
+
+- **AI-Powered Translations** using Hugging Face MarianMT
+- **User Feedback System** (correct translations + 5-star ratings)
+- **Translation History** with timestamps
+- **Active Learning** - Improves based on user input
+- **Responsive UI** works on mobile/desktop
+
+## 🛠 Tech Stack
+
+| Component       | Technology |
+|----------------|------------|
+| Frontend       | HTML5, CSS, Bootstrap |
+| Backend        | Python Flask |
+| AI Model       | Hugging Face Transformers (MarianMT) |
+| Database       | SQLite (Flask-SQLAlchemy) |
+| Deployment     | Docker (Optional) |
+
+## 🚀 Installation
+
+### Prerequisites
+- Python 3.8+
+- pip package manager
+
+### Steps
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/translation-system.git
+   git clone https://github.com/abhijeet2028/translation-system.git
+   cd translation-system
