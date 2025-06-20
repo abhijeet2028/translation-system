@@ -30,7 +30,23 @@ A web application that provides real-time language translation (English, French,
 ### Prerequisites
 - Python 3.8+
 - pip package manager
-
+  
+### Project Structure
+translation-app/
+├── app.py                 # Main Flask application
+├── models.py              # Database models
+├── translation_service.py # AI translation logic
+├── requirements.txt       # Dependencies
+├── static/
+│   └── css/
+│       └── style.css      # Custom styles
+├── templates/             # HTML templates
+│   ├── base.html
+│   ├── index.html
+│   └── history.html
+└── instance/
+    └── translations.db    # Database (ignored in .gitignore)
+    
 ### Steps
 1. Clone the repo:
    ```bash
