@@ -6,7 +6,6 @@
 
 A web application that provides real-time language translation (English, French, Spanish, German) while learning from user corrections to improve accuracy.
 
-![App Screenshot](https://i.imgur.com/JQ9w5Bn.png) *(Replace with actual screenshot)*
 
 ## ✨ Features
 
